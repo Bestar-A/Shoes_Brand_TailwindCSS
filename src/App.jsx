@@ -1,9 +1,11 @@
-function App() {
+import Nav from "./components/Nav";
+
+const App = () => {
   return (
-    <>
-      <div className="text-blue-600">Hello World</div>
-    </>
+    <div className="p-10 xl:px-24">
+      <Nav />
+    </div>
   );
-}
+};
 
 export default App;
